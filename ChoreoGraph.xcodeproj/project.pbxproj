@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74E9B4E82B9C138600EA58E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E9B4E72B9C138600EA58E0 /* AppDelegate.swift */; };
+		74E9B4EA2B9C138600EA58E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E9B4E92B9C138600EA58E0 /* SceneDelegate.swift */; };
+		74E9B4EC2B9C138600EA58E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E9B4EB2B9C138600EA58E0 /* ViewController.swift */; };
+		74E9B4EF2B9C138600EA58E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E9B4ED2B9C138600EA58E0 /* Main.storyboard */; };
+		74E9B4F22B9C138600EA58E0 /* ChoreoGraph.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 74E9B4F02B9C138600EA58E0 /* ChoreoGraph.xcdatamodeld */; };
+		74E9B4F42B9C138700EA58E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74E9B4F32B9C138700EA58E0 /* Assets.xcassets */; };
+		74E9B4F72B9C138700EA58E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E9B4F52B9C138700EA58E0 /* LaunchScreen.storyboard */; };
+		74E9B5022B9C138700EA58E0 /* ChoreoGraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E9B5012B9C138700EA58E0 /* ChoreoGraphTests.swift */; };
+		74E9B50C2B9C138700EA58E0 /* ChoreoGraphUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E9B50B2B9C138700EA58E0 /* ChoreoGraphUITests.swift */; };
+		74E9B50E2B9C138700EA58E0 /* ChoreoGraphUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E9B50D2B9C138700EA58E0 /* ChoreoGraphUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74E9B4FE2B9C138700EA58E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74E9B4DC2B9C138600EA58E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74E9B4E32B9C138600EA58E0;
+			remoteInfo = ChoreoGraph;
+		};
+		74E9B5082B9C138700EA58E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74E9B4DC2B9C138600EA58E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74E9B4E32B9C138600EA58E0;
+			remoteInfo = ChoreoGraph;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74E9B4E42B9C138600EA58E0 /* ChoreoGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChoreoGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E9B4E72B9C138600EA58E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74E9B4E92B9C138600EA58E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		74E9B4EB2B9C138600EA58E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74E9B4EE2B9C138600EA58E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74E9B4F12B9C138600EA58E0 /* ChoreoGraph.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChoreoGraph.xcdatamodel; sourceTree = "<group>"; };
+		74E9B4F32B9C138700EA58E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74E9B4F62B9C138700EA58E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74E9B4F82B9C138700EA58E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74E9B4FD2B9C138700EA58E0 /* ChoreoGraphTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChoreoGraphTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E9B5012B9C138700EA58E0 /* ChoreoGraphTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoreoGraphTests.swift; sourceTree = "<group>"; };
+		74E9B5072B9C138700EA58E0 /* ChoreoGraphUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChoreoGraphUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E9B50B2B9C138700EA58E0 /* ChoreoGraphUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoreoGraphUITests.swift; sourceTree = "<group>"; };
+		74E9B50D2B9C138700EA58E0 /* ChoreoGraphUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoreoGraphUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74E9B4E12B9C138600EA58E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E9B4FA2B9C138700EA58E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E9B5042B9C138700EA58E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74E9B4DB2B9C138600EA58E0 = {
+			isa = PBXGroup;
+			children = (
+				74E9B4E62B9C138600EA58E0 /* ChoreoGraph */,
+				74E9B5002B9C138700EA58E0 /* ChoreoGraphTests */,
+				74E9B50A2B9C138700EA58E0 /* ChoreoGraphUITests */,
+				74E9B4E52B9C138600EA58E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74E9B4E52B9C138600EA58E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74E9B4E42B9C138600EA58E0 /* ChoreoGraph.app */,
+				74E9B4FD2B9C138700EA58E0 /* ChoreoGraphTests.xctest */,
+				74E9B5072B9C138700EA58E0 /* ChoreoGraphUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74E9B4E62B9C138600EA58E0 /* ChoreoGraph */ = {
+			isa = PBXGroup;
+			children = (
+				74E9B4E72B9C138600EA58E0 /* AppDelegate.swift */,
+				74E9B4E92B9C138600EA58E0 /* SceneDelegate.swift */,
+				74E9B4EB2B9C138600EA58E0 /* ViewController.swift */,
+				74E9B4ED2B9C138600EA58E0 /* Main.storyboard */,
+				74E9B4F32B9C138700EA58E0 /* Assets.xcassets */,
+				74E9B4F52B9C138700EA58E0 /* LaunchScreen.storyboard */,
+				74E9B4F82B9C138700EA58E0 /* Info.plist */,
+				74E9B4F02B9C138600EA58E0 /* ChoreoGraph.xcdatamodeld */,
+			);
+			path = ChoreoGraph;
+			sourceTree = "<group>";
+		};
+		74E9B5002B9C138700EA58E0 /* ChoreoGraphTests */ = {
+			isa = PBXGroup;
+			children = (
+				74E9B5012B9C138700EA58E0 /* ChoreoGraphTests.swift */,
+			);
+			path = ChoreoGraphTests;
+			sourceTree = "<group>";
+		};
+		74E9B50A2B9C138700EA58E0 /* ChoreoGraphUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74E9B50B2B9C138700EA58E0 /* ChoreoGraphUITests.swift */,
+				74E9B50D2B9C138700EA58E0 /* ChoreoGraphUITestsLaunchTests.swift */,
+			);
+			path = ChoreoGraphUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74E9B4E32B9C138600EA58E0 /* ChoreoGraph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74E9B5112B9C138700EA58E0 /* Build configuration list for PBXNativeTarget "ChoreoGraph" */;
+			buildPhases = (
+				74E9B4E02B9C138600EA58E0 /* Sources */,
+				74E9B4E12B9C138600EA58E0 /* Frameworks */,
+				74E9B4E22B9C138600EA58E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChoreoGraph;
+			productName = ChoreoGraph;
+			productReference = 74E9B4E42B9C138600EA58E0 /* ChoreoGraph.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74E9B4FC2B9C138700EA58E0 /* ChoreoGraphTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74E9B5142B9C138700EA58E0 /* Build configuration list for PBXNativeTarget "ChoreoGraphTests" */;
+			buildPhases = (
+				74E9B4F92B9C138700EA58E0 /* Sources */,
+				74E9B4FA2B9C138700EA58E0 /* Frameworks */,
+				74E9B4FB2B9C138700EA58E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74E9B4FF2B9C138700EA58E0 /* PBXTargetDependency */,
+			);
+			name = ChoreoGraphTests;
+			productName = ChoreoGraphTests;
+			productReference = 74E9B4FD2B9C138700EA58E0 /* ChoreoGraphTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74E9B5062B9C138700EA58E0 /* ChoreoGraphUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74E9B5172B9C138700EA58E0 /* Build configuration list for PBXNativeTarget "ChoreoGraphUITests" */;
+			buildPhases = (
+				74E9B5032B9C138700EA58E0 /* Sources */,
+				74E9B5042B9C138700EA58E0 /* Frameworks */,
+				74E9B5052B9C138700EA58E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74E9B5092B9C138700EA58E0 /* PBXTargetDependency */,
+			);
+			name = ChoreoGraphUITests;
+			productName = ChoreoGraphUITests;
+			productReference = 74E9B5072B9C138700EA58E0 /* ChoreoGraphUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74E9B4DC2B9C138600EA58E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					74E9B4E32B9C138600EA58E0 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					74E9B4FC2B9C138700EA58E0 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 74E9B4E32B9C138600EA58E0;
+					};
+					74E9B5062B9C138700EA58E0 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 74E9B4E32B9C138600EA58E0;
+					};
+				};
+			};
+			buildConfigurationList = 74E9B4DF2B9C138600EA58E0 /* Build configuration list for PBXProject "ChoreoGraph" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74E9B4DB2B9C138600EA58E0;
+			productRefGroup = 74E9B4E52B9C138600EA58E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74E9B4E32B9C138600EA58E0 /* ChoreoGraph */,
+				74E9B4FC2B9C138700EA58E0 /* ChoreoGraphTests */,
+				74E9B5062B9C138700EA58E0 /* ChoreoGraphUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74E9B4E22B9C138600EA58E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E9B4F72B9C138700EA58E0 /* LaunchScreen.storyboard in Resources */,
+				74E9B4F42B9C138700EA58E0 /* Assets.xcassets in Resources */,
+				74E9B4EF2B9C138600EA58E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E9B4FB2B9C138700EA58E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E9B5052B9C138700EA58E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74E9B4E02B9C138600EA58E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E9B4EC2B9C138600EA58E0 /* ViewController.swift in Sources */,
+				74E9B4E82B9C138600EA58E0 /* AppDelegate.swift in Sources */,
+				74E9B4F22B9C138600EA58E0 /* ChoreoGraph.xcdatamodeld in Sources */,
+				74E9B4EA2B9C138600EA58E0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E9B4F92B9C138700EA58E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E9B5022B9C138700EA58E0 /* ChoreoGraphTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E9B5032B9C138700EA58E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E9B50C2B9C138700EA58E0 /* ChoreoGraphUITests.swift in Sources */,
+				74E9B50E2B9C138700EA58E0 /* ChoreoGraphUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74E9B4FF2B9C138700EA58E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74E9B4E32B9C138600EA58E0 /* ChoreoGraph */;
+			targetProxy = 74E9B4FE2B9C138700EA58E0 /* PBXContainerItemProxy */;
+		};
+		74E9B5092B9C138700EA58E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74E9B4E32B9C138600EA58E0 /* ChoreoGraph */;
+			targetProxy = 74E9B5082B9C138700EA58E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74E9B4ED2B9C138600EA58E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74E9B4EE2B9C138600EA58E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74E9B4F52B9C138700EA58E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74E9B4F62B9C138700EA58E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74E9B50F2B9C138700EA58E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74E9B5102B9C138700EA58E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74E9B5122B9C138700EA58E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChoreoGraph/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ddeo.ChoreoGraph;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74E9B5132B9C138700EA58E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChoreoGraph/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ddeo.ChoreoGraph;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		74E9B5152B9C138700EA58E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ddeo.ChoreoGraphTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChoreoGraph.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChoreoGraph";
+			};
+			name = Debug;
+		};
+		74E9B5162B9C138700EA58E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ddeo.ChoreoGraphTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChoreoGraph.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChoreoGraph";
+			};
+			name = Release;
+		};
+		74E9B5182B9C138700EA58E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ddeo.ChoreoGraphUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChoreoGraph;
+			};
+			name = Debug;
+		};
+		74E9B5192B9C138700EA58E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ddeo.ChoreoGraphUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChoreoGraph;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74E9B4DF2B9C138600EA58E0 /* Build configuration list for PBXProject "ChoreoGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E9B50F2B9C138700EA58E0 /* Debug */,
+				74E9B5102B9C138700EA58E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74E9B5112B9C138700EA58E0 /* Build configuration list for PBXNativeTarget "ChoreoGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E9B5122B9C138700EA58E0 /* Debug */,
+				74E9B5132B9C138700EA58E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74E9B5142B9C138700EA58E0 /* Build configuration list for PBXNativeTarget "ChoreoGraphTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E9B5152B9C138700EA58E0 /* Debug */,
+				74E9B5162B9C138700EA58E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74E9B5172B9C138700EA58E0 /* Build configuration list for PBXNativeTarget "ChoreoGraphUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E9B5182B9C138700EA58E0 /* Debug */,
+				74E9B5192B9C138700EA58E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		74E9B4F02B9C138600EA58E0 /* ChoreoGraph.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				74E9B4F12B9C138600EA58E0 /* ChoreoGraph.xcdatamodel */,
+			);
+			currentVersion = 74E9B4F12B9C138600EA58E0 /* ChoreoGraph.xcdatamodel */;
+			path = ChoreoGraph.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 74E9B4DC2B9C138600EA58E0 /* Project object */;
+}
