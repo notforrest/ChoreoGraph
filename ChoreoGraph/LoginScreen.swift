@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Firebase
 
 class LoginScreen: UIViewController {
 
@@ -25,6 +26,16 @@ class LoginScreen: UIViewController {
     @IBAction func SignUpButtonPressed(_ sender: Any) {
         performSegue(withIdentifier: "SignUpSegue", sender: self)
     }
+    
+    // email authentication
+//    Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
+//        if let error = error {
+//            // sign up error handling
+//            print("Error signing up: \(error.localizedDescription)")
+//        } else {
+//            print("User signed up successfully.")
+//        }
+//    }
     
     // 'return' key
     func textFieldShouldReturn(_ textField:UITextField) -> Bool {
