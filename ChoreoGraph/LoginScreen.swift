@@ -8,8 +8,7 @@
 import UIKit
 
 class LoginScreen: UIViewController {
-    
-    
+
     @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     

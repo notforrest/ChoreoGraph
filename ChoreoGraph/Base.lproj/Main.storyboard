@@ -12,7 +12,7 @@
         <!--Login Screen-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LoginScreen" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LoginScreen" customModule="ChoreoGraph" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -86,8 +86,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="3FM-NX-PSa"/>
                     <connections>
-                        <outlet property="passwordTextField" destination="bEA-Af-uzm" id="aln-2X-ex5"/>
-                        <outlet property="usernameTextField" destination="xht-ZQ-DIU" id="ftN-ib-Za9"/>
+                        <outlet property="passwordTextField" destination="bEA-Af-uzm" id="oeW-CY-pHb"/>
+                        <outlet property="usernameTextField" destination="xht-ZQ-DIU" id="0QM-ab-Xu7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
