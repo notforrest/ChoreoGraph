@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		05CD0A6A2BA9104B005E8870 /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CD0A682BA9104B005E8870 /* SignUpScreen.swift */; };
-		744385162BA65DAA007EA328 /* cgIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 744385152BA65DAA007EA328 /* cgIcon.png */; };
+		74C538F82BA91581001FE359 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C538F72BA91581001FE359 /* HomeScreen.swift */; };
 		74E9B4E82B9C138600EA58E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E9B4E72B9C138600EA58E0 /* AppDelegate.swift */; };
 		74E9B4EA2B9C138600EA58E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E9B4E92B9C138600EA58E0 /* SceneDelegate.swift */; };
 		74E9B4EC2B9C138600EA58E0 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E9B4EB2B9C138600EA58E0 /* LoginScreen.swift */; };
@@ -40,7 +40,7 @@
 
 /* Begin PBXFileReference section */
 		05CD0A682BA9104B005E8870 /* SignUpScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
-		744385152BA65DAA007EA328 /* cgIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cgIcon.png; path = ../../../../../cgIcon.png; sourceTree = "<group>"; };
+		74C538F72BA91581001FE359 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		74E9B4E42B9C138600EA58E0 /* ChoreoGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChoreoGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E9B4E72B9C138600EA58E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74E9B4E92B9C138600EA58E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,12 +107,12 @@
 			children = (
 				74E9B4E72B9C138600EA58E0 /* AppDelegate.swift */,
 				74E9B4E92B9C138600EA58E0 /* SceneDelegate.swift */,
+				74C538F72BA91581001FE359 /* HomeScreen.swift */,
 				74E9B4EB2B9C138600EA58E0 /* LoginScreen.swift */,
-				74E9B4ED2B9C138600EA58E0 /* Main.storyboard */,
 				05CD0A682BA9104B005E8870 /* SignUpScreen.swift */,
+				74E9B4ED2B9C138600EA58E0 /* Main.storyboard */,
 				74E9B4F32B9C138700EA58E0 /* Assets.xcassets */,
 				74E9B4F52B9C138700EA58E0 /* LaunchScreen.storyboard */,
-				744385152BA65DAA007EA328 /* cgIcon.png */,
 				74E9B4F82B9C138700EA58E0 /* Info.plist */,
 				74E9B4F02B9C138600EA58E0 /* ChoreoGraph.xcdatamodeld */,
 			);
@@ -240,7 +240,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				744385162BA65DAA007EA328 /* cgIcon.png in Resources */,
 				74E9B4F72B9C138700EA58E0 /* LaunchScreen.storyboard in Resources */,
 				74E9B4F42B9C138700EA58E0 /* Assets.xcassets in Resources */,
 				74E9B4EF2B9C138600EA58E0 /* Main.storyboard in Resources */,
@@ -270,6 +269,7 @@
 			files = (
 				05CD0A6A2BA9104B005E8870 /* SignUpScreen.swift in Sources */,
 				74E9B4EC2B9C138600EA58E0 /* LoginScreen.swift in Sources */,
+				74C538F82BA91581001FE359 /* HomeScreen.swift in Sources */,
 				74E9B4E82B9C138600EA58E0 /* AppDelegate.swift in Sources */,
 				74E9B4F22B9C138600EA58E0 /* ChoreoGraph.xcdatamodeld in Sources */,
 				74E9B4EA2B9C138600EA58E0 /* SceneDelegate.swift in Sources */,
