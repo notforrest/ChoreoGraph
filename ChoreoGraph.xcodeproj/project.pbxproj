@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05CD0A6A2BA9104B005E8870 /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CD0A682BA9104B005E8870 /* SignUpScreen.swift */; };
 		744385162BA65DAA007EA328 /* cgIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 744385152BA65DAA007EA328 /* cgIcon.png */; };
 		74E9B4E82B9C138600EA58E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E9B4E72B9C138600EA58E0 /* AppDelegate.swift */; };
 		74E9B4EA2B9C138600EA58E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E9B4E92B9C138600EA58E0 /* SceneDelegate.swift */; };
-		74E9B4EC2B9C138600EA58E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E9B4EB2B9C138600EA58E0 /* ViewController.swift */; };
+		74E9B4EC2B9C138600EA58E0 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E9B4EB2B9C138600EA58E0 /* LoginScreen.swift */; };
 		74E9B4EF2B9C138600EA58E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E9B4ED2B9C138600EA58E0 /* Main.storyboard */; };
 		74E9B4F22B9C138600EA58E0 /* ChoreoGraph.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 74E9B4F02B9C138600EA58E0 /* ChoreoGraph.xcdatamodeld */; };
 		74E9B4F42B9C138700EA58E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74E9B4F32B9C138700EA58E0 /* Assets.xcassets */; };
@@ -38,11 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05CD0A682BA9104B005E8870 /* SignUpScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
 		744385152BA65DAA007EA328 /* cgIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cgIcon.png; path = ../../../../../cgIcon.png; sourceTree = "<group>"; };
 		74E9B4E42B9C138600EA58E0 /* ChoreoGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChoreoGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E9B4E72B9C138600EA58E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74E9B4E92B9C138600EA58E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		74E9B4EB2B9C138600EA58E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74E9B4EB2B9C138600EA58E0 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		74E9B4EE2B9C138600EA58E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74E9B4F12B9C138600EA58E0 /* ChoreoGraph.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChoreoGraph.xcdatamodel; sourceTree = "<group>"; };
 		74E9B4F32B9C138700EA58E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -105,8 +107,9 @@
 			children = (
 				74E9B4E72B9C138600EA58E0 /* AppDelegate.swift */,
 				74E9B4E92B9C138600EA58E0 /* SceneDelegate.swift */,
-				74E9B4EB2B9C138600EA58E0 /* ViewController.swift */,
+				74E9B4EB2B9C138600EA58E0 /* LoginScreen.swift */,
 				74E9B4ED2B9C138600EA58E0 /* Main.storyboard */,
+				05CD0A682BA9104B005E8870 /* SignUpScreen.swift */,
 				74E9B4F32B9C138700EA58E0 /* Assets.xcassets */,
 				74E9B4F52B9C138700EA58E0 /* LaunchScreen.storyboard */,
 				744385152BA65DAA007EA328 /* cgIcon.png */,
@@ -265,7 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74E9B4EC2B9C138600EA58E0 /* ViewController.swift in Sources */,
+				05CD0A6A2BA9104B005E8870 /* SignUpScreen.swift in Sources */,
+				74E9B4EC2B9C138600EA58E0 /* LoginScreen.swift in Sources */,
 				74E9B4E82B9C138600EA58E0 /* AppDelegate.swift in Sources */,
 				74E9B4F22B9C138600EA58E0 /* ChoreoGraph.xcdatamodeld in Sources */,
 				74E9B4EA2B9C138600EA58E0 /* SceneDelegate.swift in Sources */,

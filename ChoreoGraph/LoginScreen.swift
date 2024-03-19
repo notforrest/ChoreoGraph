@@ -1,29 +1,27 @@
 //
-//  LoginScreen.swift
+//  ViewController.swift
 //  ChoreoGraph
 //
-//  Created by Kathy Cui on 3/18/24.
+//  Created by Forrest Sun on 3/8/24.
 //
 
 import UIKit
 
-class LoginScreen: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+class ViewController: UIViewController {
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "LoginSegue" {
+            if let destinationVC = segue.destination as? LoginScreen {
+                // change to Login VC after x time
+            }
+        }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
     }
-    */
+
 
 }
+
