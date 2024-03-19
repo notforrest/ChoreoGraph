@@ -9,6 +9,19 @@ import UIKit
 
 class SignUpScreen: UIViewController {
 
+    @IBOutlet weak var username: UITextField!
+    @IBOutlet weak var password: UITextField!
+    @IBOutlet weak var confirmPassword: UITextField!
+    @IBOutlet weak var passwordMismatch: UILabel!
+    
+    @IBAction func SignUpButtonPressed(_ sender: Any) {
+        if password.text == confirmPassword.text {
+                performSegue(withIdentifier: "SignUpSegue", sender: self)
+            } else {
+                passwordMismatch.isHidden = false
+            }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
