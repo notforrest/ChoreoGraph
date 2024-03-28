@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import Firebase
+import FirebaseAuth
 
 class LoginScreen: UIViewController {
 
@@ -14,28 +14,23 @@ class LoginScreen: UIViewController {
     @IBOutlet weak var passwordTextField: UITextField!
     
     @IBAction func LoginButtonPressed(_ sender: Any) {
-        guard let username = usernameTextField.text, !username.isEmpty,
-                  let password = passwordTextField.text, !password.isEmpty else {
-                // alert - add functionality later
-                return
-            }
         
-        performSegue(withIdentifier: "LoginSegue", sender: self)
+        Auth.auth().signIn(withEmail: usernameTextField.text!,
+                           password: passwordTextField.text!) {
+            authResult, error in
+            if ((error as NSError?) != nil) {
+                // Handle error here
+            } else {
+                self.performSegue(withIdentifier: "LoginSegue", sender: self)
+            }
+        }
+        
+
     }
     
     @IBAction func SignUpButtonPressed(_ sender: Any) {
         performSegue(withIdentifier: "SignUpSegue", sender: self)
     }
-    
-    // email authentication
-//    Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
-//        if let error = error {
-//            // sign up error handling
-//            print("Error signing up: \(error.localizedDescription)")
-//        } else {
-//            print("User signed up successfully.")
-//        }
-//    }
     
     // 'return' key
     func textFieldShouldReturn(_ textField:UITextField) -> Bool {
@@ -48,11 +43,40 @@ class LoginScreen: UIViewController {
         self.view.endEditing(true)
     }
     
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        usernameTextField.text = ""
+        passwordTextField.isSecureTextEntry = true
+        passwordTextField.text = ""
+
+        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        usernameTextField.text = ""
+        passwordTextField.text = ""
+    
     }
 
+
+    // check that email is valid
+    func isValidEmail(_ email: String) -> Bool {
+        let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
+
+        let emailPred = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
+        return emailPred.evaluate(with: email)
+    }
+      
+    func isValidPassword(_ password: String) -> Bool {
+       return password.count >= 6
+    }
+    
+
+ 
 
 }
 
